@@ -27,6 +27,28 @@ public class Class_2{
             System.out.println("O numero eh impar");
         }
 
+        
+
+
+        //Desvio Encadiado
+        int answer = 15;
+        int guess;
+        boolean correct = false;
+
+        while(correct == false){
+            guess = scanner.nextInt();
+            if(guess == answer){
+                System.out.println("Acertou!");
+                correct = true;
+            }
+            else if(guess > answer){
+                System.out.println("Palpite maior");
+            }
+            else{
+                System.out.println("Palpite menor");
+            }
+        }
+
         scanner.close();
     }
 }
