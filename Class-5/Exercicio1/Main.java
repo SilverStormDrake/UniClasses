@@ -1,4 +1,4 @@
-//package Exercicio1;
+package Exercicio1;
 
 
 
@@ -14,7 +14,7 @@ public class Main {
 }
 
 //Não estava funcionando no Laboratório arquivos diferentes ???????
-public class Lampada {
+class Lampada {
     String marca;
     double preco;
 
