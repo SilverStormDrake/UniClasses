@@ -1,0 +1,24 @@
+//package Exercicio1;
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        Lampada lampada1 = new Lampada();
+
+        lampada1.marca = "Luxmax";
+        lampada1.preco = 10.0;
+
+        System.out.println(lampada1.subtotal(5));
+    }
+}
+
+//Não estava funcionando no Laboratório arquivos diferentes ???????
+public class Lampada {
+    String marca;
+    double preco;
+
+    double subtotal(int qtd){
+        return preco * qtd;
+    }
+}
