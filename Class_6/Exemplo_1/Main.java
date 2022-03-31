@@ -3,7 +3,7 @@ package Class_6.Exemplo_1;
 public class Main {
     public static void main(String[] args) {
         ContaCorrente conta1 = new ContaCorrente("Ragnaldo Pereira", 77);
-        ContaCorrente conta2 = new ContaCorrente("Ximborelsson", 33);
+        ContaCorrente conta2 = new ContaCorrente("Ximborelsson da Silva", 33);
         
         conta1.setSaldo(6550);
         conta2.setSaldo(350);
@@ -19,7 +19,4 @@ public class Main {
 
         System.out.println(conta1.getSaldo());
     }
-
-    
-    
 }

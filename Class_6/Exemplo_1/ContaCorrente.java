@@ -46,12 +46,12 @@ public class ContaCorrente {
     // outros métodos
     public void deposita(int aumento){
         this.saldo += (aumento*0.1) + (aumento);
-        System.out.println("valor depositado com sucesso!");
+        System.out.printf("valor de %.2f depositado com sucesso!\n", ((aumento*0.1) + (aumento)));
     }
 
     public void sacar(int valor){
         if (valor > this.saldo) {
-            System.out.println("vc n é tao rico assim parsero!");
+            System.out.printf("Valor saque de %d negado.\nMotivo:vc n é tao rico assim parsero!\n",valor);
         } else {
             this.saldo -= valor;
             System.out.printf("O valor de %d foi sacado com sucesso.\nsua conta atual agora está com um saldo de %d reais\n", valor, this.saldo);
