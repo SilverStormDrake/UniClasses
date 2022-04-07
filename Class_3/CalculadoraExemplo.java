@@ -1,4 +1,8 @@
+package Class_3;
+
 import java.util.Scanner;
+
+
 public class CalculadoraExemplo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

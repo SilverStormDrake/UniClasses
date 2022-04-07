@@ -1,3 +1,5 @@
+package Class_2;
+
 import java.util.Scanner;
 
 public class Class_2_Exemplo2{

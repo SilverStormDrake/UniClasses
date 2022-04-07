@@ -1,3 +1,5 @@
+package Class_1;
+
 import java.util.Scanner;
 public class Class_1{
     public static void main(String[] args){
