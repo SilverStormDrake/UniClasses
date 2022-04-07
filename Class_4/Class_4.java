@@ -1,3 +1,5 @@
+package Class_4;
+
 import java.util.Scanner;
 
 public class Class_4{
