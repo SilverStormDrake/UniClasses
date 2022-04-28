@@ -1,4 +1,4 @@
-package Class_5.Exercicio1;
+package Exercicio1;
 
 public class Lampada {
     String marca;

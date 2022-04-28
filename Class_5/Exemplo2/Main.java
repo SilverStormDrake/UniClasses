@@ -1,4 +1,4 @@
-package Class_5.Exemplo2;
+package Exemplo2;
 
 public class Main {
     public static void main(String[] args) {
