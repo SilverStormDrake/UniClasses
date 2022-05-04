@@ -9,6 +9,10 @@ public class Main {
     
         for(int i = 0; i<6; i++){
             train[i] = scanner.nextInt();
+            if(train[i] < 0 || train[i]>250){
+                i--;
+                System.out.println("Entrada invalida");
+            }
         }
         scanner.close();
 
