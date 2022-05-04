@@ -6,17 +6,22 @@ public class Main {
         
         Scanner scanner = new Scanner(System.in);
         int[] train = new int[6];
+        int sum = 0;
     
         for(int i = 0; i<6; i++){
             train[i] = scanner.nextInt();
             if(train[i] < 0 || train[i]>250){
                 i--;
                 System.out.println("Entrada invalida");
+            }else{
+                sum += train[i];
             }
         }
         scanner.close();
 
+        System.out.println("Total de passageiros da composição: " + sum);
         for(int i = 0; i<6; i++){
+            System.out.print("Carro "+ (i+1) +" Num. Ocupantes - " + train[i] + ": ");
             if(train[i] <= 50){
                 System.out.println("Azul (vazio ou ocupação baixa)");
             } else if(train[i] > 50 && train[i] <= 100){
